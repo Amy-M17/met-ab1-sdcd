@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for, session, flash
 
 app = Flask(__name__)
-app.secret_key = "-secret-key"
+app.secret_key = "ShopEase-secret-key"
 
 APP_TITLE = "ShopEase"
 
